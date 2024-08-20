@@ -14,10 +14,10 @@ function sayHello() {
 
 sayHello(); // Output: Hello Bob!
 
-function bestRugbyTeam(springboks) {
-  const team = "definatly the Springboks Four 🏆🏆🏆🏆";
-  console.log(" " + team + "❣️");
+function rugbyTeam() {
+  const question = `Who is the current best rugby team in the world?? 🤔`;
+  let answer = `definitely the Springboks`;
+  console.log(`${question} ${answer} ❣️🥳 🏆🏆🏆🏆`);
 }
 
-console.log(bestRugbyTeam());
-// test.
+rugbyTeam();
